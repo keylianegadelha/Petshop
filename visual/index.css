@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet"> 
+@import url('https://fonts.googleapis.com/css?family=Cookie|Spartan&display=swap');
 <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet"> 
 .nav{
     padding-top: -20px;
@@ -189,19 +189,6 @@ a:hover{
     margin-top: 20px;
     margin-left: 17px;
 }
-.imgInsta{
-    height: 200px;
-    width: 300px;
-}
-#imgInsta{
-    margin-left: 300px;
-    margin-top: 70px;
-}
-#imgInsta1{
-    margin-left: 150px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
 #sobreTitulo{
     position: absolute;
     font-family: 'Cookie-Regular';
@@ -242,7 +229,8 @@ a:hover{
 }
 .d{
     padding-top: -20px;
-    margin-left: 130px;
+    padding-left: -40px;
+    margin-left: 120px;
     margin-top: 50px;
     height: 500px;
     width: 580px;
