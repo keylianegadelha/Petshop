@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie|Spartan&display=swap');
-@font-face {
-    src: url(Cookie-Regular.ttf);
-    font-family: 'Cookie-Regular';    
-    font-weight: normal;
-}
-@font-face {
-    src: url(Spartan-Regular.ttf);
-    font-family: 'Spartan-Regular';    
-    font-weight: normal;
-}
 #fundo{
     background-color: #F0BC5E;
     height: 655px;
