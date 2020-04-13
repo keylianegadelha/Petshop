@@ -1,0 +1,267 @@
+
+.nav{
+    padding-top: -20px;
+    padding-bottom: 20px;
+    background-color: #A65D03;
+}
+#navbarDropdown{
+    margin-top: 8px;
+}
+#nome{
+    font-family: 'Cookie-Regular';
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 1px;
+    color: white;
+    font-size: 40px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.form-control{
+    margin-top: 12px;
+    margin-left: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn{
+    margin-top: 12px;
+    color: white;
+    border-color: white;
+}
+#btn:hover{
+    background-color: #A65D03;
+    color: #F0BC5E;
+    border-color: #F0BC5E;
+}
+.form-control:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn:focus,select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#acessorio{
+    margin-left: 400px;
+    margin-top: 8px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    
+}
+.item{
+    margin-top: 8px;
+}
+/*Imagens*/
+.imagens{
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+}
+#a{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#b{
+    margin-left: 750px;
+    margin-top: 180px;
+}
+#c{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+/*Informações*/
+.texto{
+    font-family: 'Cookie-Regular';
+    font-size: 45px;
+    color: #A65D03;
+}
+#d{
+    margin-top: -1580px;
+    margin-left: 750px;
+}
+#e{
+    margin-left: 800px;
+    margin-top: -60px;
+}
+#botao{
+    margin-left: 845px;
+    margin-top: -5px;
+    color: #A65D03;
+    border-color: #A65D03;
+}
+#botao:hover{
+    background-color: #A65D03;
+    color: white;
+    cursor: pointer;
+}
+#f{
+    margin-left: 150px;
+    margin-top: 450px;
+}
+#g{
+    margin-top: -30px;
+    margin-left: 190px;
+}
+#h{
+    margin-top: 470px;
+    margin-left: 750px; 
+}
+#i{
+    margin-left: 830px;
+    margin-top: -35px;
+}
+/*Serviços*/
+#tema, #agenda{
+    font-family: 'Cookie-Regular';
+    font-size: 50px;
+    color: #A65D03;
+    margin-left: 560px;
+    margin-top: 290px;
+    margin-bottom: 30px;
+}
+.itens{
+    color: #A65D03;
+    font-family: 'Cookie-Regular';
+    font-size: 40px;
+}
+p{
+    color: #A65D03;
+}
+#banho{
+    margin-top: -5px;
+    margin-left: 233px;
+    margin-top: 20px;
+}
+#banho2{
+    margin-left: 150px;
+    margin-right: 900px;
+    margin-top: -3px;
+}
+#tosa{
+    margin-top: -155px;
+    margin-left: 560px;
+}
+#tosa2{
+    margin-bottom: -10px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+#hidra{
+    margin-top: -110px;
+    margin-left: 910px;
+}
+#hidra2{
+    margin-left: 900px;
+    margin-right: 150px;
+}
+#dente{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+#dente2{
+    margin-left: 150px;
+    margin-right: 900px;
+}
+#dese{
+    margin-top: -125px;
+    margin-left: 960px;
+}
+#dese2{
+    margin-left: 900px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+#intenso{
+    margin-left: 530px;
+    margin-top: -143px;
+}
+#intenso2{
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 15px;
+}
+
+/*Imagens*/
+.img{
+    height: 80px;
+    width: 80px;
+}
+#colar{
+    height: 70px;
+    width: 70px;
+    margin-left: 245px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+#patas{
+    height: 70px;
+    margin-top: -250px;
+    margin-left: 630px;
+    margin-bottom: 15px; 
+}
+#bone{
+    height: 70px;
+    width: 70px;
+    margin-top: -200px;
+    margin-left: 1000px;
+    margin-bottom: 20px; 
+}
+#pata{
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-bottom: -90px;
+}
+#dog{
+    margin-top: -235px;
+    margin-left: 630px;
+}
+#cat{
+    margin-top: -215px;
+    margin-left: 1000px;
+}
+/*Formulário*/
+#agenda{
+    margin-left: 580px;
+    margin-top: 20px;
+}
+.form{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*Footer*/
+.page-footer{
+    padding-top: -20px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    background-color: #A65D03;
+}
+#copyright{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 555px;  
+    color: white;
+}
+#linkSite{
+    color: white;
+}
+/*Botão*/
+#agendamento{
+    margin-bottom: -50px;
+    margin-top: 12px;
+    color: white;
+    background-color: #A65D03;
+    border-color: white;
+}
