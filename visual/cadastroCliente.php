@@ -10,29 +10,75 @@
     <link rel='stylesheet' href='cadastroCliente.css'>
     
     <title>PetLove | Cadastrar Cliente</title>
-  </head>
-  <body>
-    <div id='fundo'></div>
+    </head>
+    <body>
+        
+        <div>
+          <ul class='nav'>
+          <li><img id='logo' src='icon/pet2.png'></li>
+          <li id='nom'>
+            <a href='index.php'><p id='nom'>PetLove</p></a>
+          </li>
+          <li id='acessorio'>
+            <a class='nav-link' href='acessorio.php'>Acessórios</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='filhote.php'>Filhotes</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='racao.php'>Ração</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='servicos.php'>Serviços</a>
+          </li>
+          
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+              Login/Cadastro
+            </a>
+            <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+              <a class='dropdown-item' href='loginCliente.php'>Login</a>
+              <a class='dropdown-item' href='cadastroCliente.php'>Cadastro</a>
+            </div>
+          </li>
+           
+          <form class='form-inline my-2 my-lg-0'>
+             <input class='form-control mr-sm-2' id='form1' type='search' placeholder='O que seu pet precisa? ' aria-label='Pesquisar'>
+             <button id='btn' class='btn btn-outline-success' type='submit'>Pesquisar</button>
+          </form>
+        </div> 
+       
+        <div id='fundo'></div>
         <div class='pag'>
             <h1>Cadastrar Cliente</h1><br>
             <div>
                 <div class='cadastro'>
-                    <form>
-                        <input class='input' type='text' name='nome' id='nome' placeholder='Nome completo'><br>
-                        <label><input class='input' type='email' name='email' id='email' placeholder='Email'></label><br>
-                        <label><input class='input' type='password' name='senha' id='senha' placeholder='Senha'></label><br>
-                        <label><input class='input' type='password' name='conSenha' id='conSenha' placeholder='Confirmar senha'></label><br>
-                        <button type='submit'>CADASTRAR</button><br>
-                        <p> JÁ POSSUI UMA CONTA?</p><br>
+                    <form method='post' action='mvc/addCliente.php'>
+                        <input class='form-control mr-sm-2' id='nome' name='nome' type='text' placeholder='Nome ' aria-label='Pesquisar'>
+                        
+                        <input class='form-control mr-sm-2' id='email' name='email' type='email' placeholder='Email ' aria-label='Pesquisar'>
+                        
+                        <input class='form-control mr-sm-2' id='senha' name='senha' type='password' placeholder='Senha ' aria-label='Pesquisar'>
+                        
+                        <input class='form-control mr-sm-2' id='conSenha' name='conSenha' type='password' placeholder='Confirmar Senha' aria-label='Pesquisar'>
+                        
+                        <button id='button' class='btn btn-outline-success' type='submit'>Cadastrar</button>
+                        <p id='p'> JÁ POSSUI UMA CONTA?</p><br>
                         <a id='login' href='loginCliente.php'>LOGIN</a>
                     </form>
                 </div>
             </div>
         </div>
         
-        <div id='logo'>
-              <img src='icon/pet2.png'>
+        <div id='lgo'>
+              <img id='img' src='icon/pet2.png'>
         </div>
+        
+        <footer class='page-footer'>
+            <div id='copyright'>© 2020 Copyright:
+                <a id='linkSite' href='index.php'> PetLove.com</a>
+            </div>
+        </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
