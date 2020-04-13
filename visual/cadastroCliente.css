@@ -1,92 +1,142 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie|Spartan&display=swap');
-#fundo{
-    background-color: #F0BC5E;
-    height: 655px;
-    width: 1368px;
-    margin-top: -10px;
-    margin-left: -10px;
+.nav{
+    padding-top: -20px;
+    padding-bottom: 20px;
+    background-color: #A65D03;
+}
+#navbarDropdown{
+    margin-top: 8px;
+}
+#nom{
+    font-family: 'Cookie-Regular';
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 1px;
+    color: white;
+    font-size: 40px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#form1{
+    margin-top: 12px;
+    margin-left: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn, #button{
+    margin-top: 12px;
+    color: white;
+    border-color: white;
+}
+#btn, #button:hover{
+    background-color: #A65D03;
+    color: #F0BC5E;
+    border-color: #F0BC5E;
+}
+#form1, #senha, #email, #nome, #conSenha:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn:focus,select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#acessorio{
+    margin-left: 400px;
+    margin-top: 8px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    
+}
+.item{
+    margin-top: 8px;
 }
 .pag{
     position: absolute;
     height: 400px;
     width: 400px;
-    margin-left: 450px;
-    margin-top: -500px;
+    margin-left: 480px;
+    margin-top: 100px;
     background-color: #A65D03;
+    border-radius: 5px;
 }
-.input{
+#senha, #email, #nome, #conSenha{
     height: 40px;
     width: 300px;
     background-color: white;
+    border-radius: 4px;
     border: none;
     margin-left: 50px;
-    font-size: 13px;
+    font-size: 15px;
 }
 #nome{
-    margin-top: 70px;
+    margin-top: -20px;
     margin-bottom: 15px;
 }
-#email{
+#email, #senha, #conSenha{
     margin-bottom: 15px;
 }
-#senha{
-    margin-bottom: 15px;
-}
-#conSenha{
-    margin-bottom: 15px;
-}
-button{
+#button{
     height: 40px;
     width: 300px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
     margin-left: 50px;
-    margin-bottom: 10px;
-    font-size: 12px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    margin-top: -1px;
 }
-button:hover{
-    cursor: pointer;
-    background: white;
-    border: none;
+#p{
+    margin-left: 80px;
+    color: white;
 }
 h1{
-    position: absolute;
-    margin-left: 80px; 
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-left: 90px; 
+    margin-top: 20px;
     font-family: 'Cookie-Regular';
     font-size: 45px;
     color: white;
 }
-button, .input{
-    font-family: 'Spartan-Regular';
-}
-p{
-    margin-left: 90px;
-    color: white;
-}
 #login{
     position: absolute;
-    margin-left: 260px;
-    margin-top: -40px;
+    margin-left: 250px;
     color: white;
+    margin-top: -55px;
 }
-p, #login{
+#p, #login{
     font-family: 'Spartan-Regular';
     font-size: 10px;
 }
-#logo{
+#lgo{
     height: 100px;
     width: 100px;
     border-radius: 60px;
     background-color: #A65D03;
-    margin-left: 595px;
-    margin-top: -550px;
+    margin-left: 625px;
+    margin-top: 50px;
 }
-img{
+#img{
     position: absolute;
     margin-left: 25px;
     margin-top: 25px;
     height: 50px;
     width: 50px;
+}
+footer{
+    margin-left: 568px;
+    margin-top: 390px;
+}
+#linkSite{
+    color: #A65D03; 
 }
