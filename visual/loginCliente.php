@@ -10,28 +10,69 @@
     <link rel='stylesheet' href='loginCliente.css'>
     
     <title>PetLove | Logar Cliente</title>
-    
     </head>
     <body>
+        
+      <div>
+        <ul class='nav'>
+          <li><img id='logo' src='icon/pet2.png'></li>
+          <li id='nome'>
+            <a href='index.php'><p id='nome'>PetLove</p></a>
+          </li>
+          <li id='acessorio'>
+            <a class='nav-link' href='acesssorio.php'>Acessórios</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='filhote.php'>Filhotes</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='racao.php'>Ração</a>
+          </li>
+          <li class='item'>
+            <a class='nav-link' href='servicos.php'>Serviços</a>
+          </li>
+          
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+              Login/Cadastro
+            </a>
+            <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+              <a class='dropdown-item' href='loginCliente.php'>Login</a>
+              <a class='dropdown-item' href='cadastroCliente.php'>Cadastro</a>
+            </div>
+          </li>
+           
+           <form class='form-inline my-2 my-lg-0'>
+              <input class='form-control mr-sm-2' id='form1' type='search' placeholder='O que seu pet precisa? ' aria-label='Pesquisar'>
+              <button id='btn' class='btn btn-outline-success' type='submit'>Pesquisar</button>
+            </form>
+       </div> 
+       
         <div id='fundo'></div>
         <div class='pag'>
             <h1>Logar Cliente</h1><br>
             <div>
                 <div class='cadastro'>
-                    <form>
-                        <label><input class='input' type='email' name='email' id='email' placeholder='Email'></label><br>
-                        <label><input class='input' type='password' name='senha' id='senha' placeholder='Senha'></label><br>
-                        <button type='submit'>LOGAR</button><br>
-                        <p> NÃO POSSUI UMA CONTA?</p><br>
+                    <form method='post' action='mvc/verificarLogin.php'>
+                        <input class='form-control mr-sm-2' id='email' name='email' type='text' placeholder='Email ' aria-label='Pesquisar'>
+                        <input class='form-control mr-sm-2' id='senha' name='senha' type='password' placeholder='Senha ' aria-label='Pesquisar'>
+                        <button id='button' class='btn btn-outline-success' type='submit'>Login</button>
+                        <p id='p'> NÃO POSSUI UMA CONTA?</p><br>
                         <a id='login' href='cadastroCliente.php'>CADASTRAR</a>
                     </form>
                 </div>
             </div>
         </div>
         
-        <div id='logo'>
-              <img src='icon/pet2.png'>
+        <div id='lgo'>
+              <img id='img' src='icon/pet2.png'>
         </div>
+        
+        <footer class='page-footer'>
+            <div id='copyright'>© 2020 Copyright:
+                <a id='linkSite' href='index.php'> PetLove.com</a>
+            </div>
+        </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
