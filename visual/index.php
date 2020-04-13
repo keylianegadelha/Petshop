@@ -14,23 +14,23 @@
     </head>
     <body>
         
-      <div>
-        <ul class='nav'>
+        <div>
+         <ul class='nav'>
           <li><img id='logo' src='icon/pet2.png'></li>
           <li id='nome'>
-            <p id='nome'>PetLove</p>
+            <a href='index.php'><p id='nome'>PetLove</p></a>
           </li>
           <li id='acessorio'>
-            <a class='nav-link' href='#'>Acessórios</a>
+            <a class='nav-link' href='acessorio.php'>Acessórios</a>
           </li>
           <li class='item'>
-            <a class='nav-link' href='#'>Filhotes</a>
+            <a class='nav-link' href='filhote.php'>Filhotes</a>
           </li>
           <li class='item'>
-            <a class='nav-link' href='#'>Ração</a>
+            <a class='nav-link' href='racao.php'>Ração</a>
           </li>
           <li class='item'>
-            <a class='nav-link' href='#'>Serviços</a>
+            <a class='nav-link' href='servicos.php'>Serviços</a>
           </li>
           
           <li class='nav-item dropdown'>
@@ -38,15 +38,8 @@
               Login/Cadastro
             </a>
             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
-              <a class='dropdown-item'>CLIENTE</a>
-              <div class='dropdown-divider'></div>
               <a class='dropdown-item' href='loginCliente.php'>Login</a>
               <a class='dropdown-item' href='cadastroCliente.php'>Cadastro</a>
-              <div class='dropdown-divider'></div>
-              <a class='dropdown-item'>FUNCIONÁRIO</a>
-              <div class='dropdown-divider'></div>
-              <a class='dropdown-item' href='loginFuncionario.php'>Login</a>
-              <a class='dropdown-item' href='cadastroFuncionario.php'>Cadastro</a>
             </div>
           </li>
            
@@ -54,9 +47,9 @@
               <input class='form-control mr-sm-2' type='search' placeholder='O que seu pet precisa? ' aria-label='Pesquisar'>
               <button id='btn' class='btn btn-outline-success' type='submit'>Pesquisar</button>
             </form>
-        </div> 
+         </div> 
          
-        <div>
+         <div>
             <h1 id='h1'>PetLove</h1>
             <p class='p' id='pPri'>
                 Trabalhamos com amor e 
@@ -64,8 +57,8 @@
             <p class='p' id='pSeg'>
                 dedicação total aos animais.
             </p>
-            <img id='gato' src='icon/teste2.jpg'>
-        </div>
+            <img id='gato' src='icon/ativa.png'>
+         </div>
          
          <p id='apresentacao'>
             Nossos serviços e produtos são feitos com qualidade, inovação e muito amor.
@@ -75,9 +68,9 @@
          </p>
          
          <div>
-            <a href='#'><img id='link1' class='imgLink' src='icon/collar.png'></a>
-            <a href='#'><img id='link2' class='imgLink' src='icon/dog-food.png'></a>
-            <a href='#'><img id='link3' class='imgLink' src='icon/comb.png'></a>
+            <a href='acessorio.php'><img id='link1' class='imgLink' src='icon/collar.png'></a>
+            <a href='racao.php'><img id='link2' class='imgLink' src='icon/dog-food.png'></a>
+            <a href='servicos.php'><img id='link3' class='imgLink' src='icon/comb.png'></a>
          </div>
          
          <div>
@@ -90,38 +83,35 @@
             <p id='adocao'>Compre hoje seu pet!</p>
             
             <div id='card1' class='card'>
-              <a href='#'><img class='animal' src='icon/cachorro.png'><a>
+              <a href='filhote.php#a'><img class='animal' src='icon/cachorro.png'><a>
               
             </div>
               
             <div id='card2' class='card'>
-              <a href='#'><img class='animal' src='icon/coelho.png'></a>
+              <a href='filhote.php#b'><img class='animal' src='icon/coelho.png'></a>
             </div>
             
             <div id='card3' class='card'>
-              <a href='#'><img class='animal' src='icon/gato.png'></a>
+              <a href='filhote.php#c'><img class='animal' src='icon/gato.png'></a>
             </div>
             
             <div id='card4' class='card'>
-              <a href='#'><img id='passaro' class='animal' src='icon/passaro.jpg'></a>
+              <a href='filhote.php#d'><img id='passaro' class='animal' src='icon/passaro.jpg'></a>
             </div>
          </div>
          
          
-            <img class='d' src='icon/equi.png'>
-         
-            <p id='sobreTitulo'>Um pouco sobre nós...</p>
-            <p id='sobreTexto'>Lorem ipsum libero interdum consectetur eleifend inceptos, sodales suscipit ornare odio fermentum posuere praesent, consequat curabitur senectus massa aliquam. accumsan a luctus lacinia ipsum tempor pulvinar nunc mi maecenas in, fringilla luctus congue aliquam convallis bibendum convallis condimentum lorem nibh mauris, pulvinar pretium ultrices massa eleifend tempor nibh aenean posuere.</p>
-            <p id='sobreTexto1'>Convallis aenean auctor rhoncus tincidunt neque, volutpat ante diam vehicula donec et, vivamus curae dictum erat. class quam mattis dapibus tellus neque suscipit, eu nisl habitasse curabitur taciti sit, ut eu cubilia quisque semper. ultricies arcu est vel neque duis vivamus mi nostra cras ut, a urna fermentum ut arcu ut donec dui ipsum eleifend praesent, iaculis ut tristique feugiat est cras interdum sem viverra.
-            </p>
+         <img class='d' src='icon/equipe.png'>
+         <p id='sobreTitulo'>Um pouco sobre nós...</p>
+         <p id='sobreTexto'>Lorem ipsum libero interdum consectetur eleifend inceptos, sodales suscipit ornare odio fermentum posuere praesent, consequat curabitur senectus massa aliquam. accumsan a luctus lacinia ipsum tempor pulvinar nunc mi maecenas in, fringilla luctus congue aliquam convallis bibendum convallis condimentum lorem nibh mauris, pulvinar pretium ultrices massa eleifend tempor nibh aenean posuere.</p>
             
         </div>
+        
         <footer class='page-footer'>
             <div id='copyright'>© 2020 Copyright:
                 <a id='linkSite' href='#'> PetLove.com</a>
             </div>
         </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous'></script>
