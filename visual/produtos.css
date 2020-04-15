@@ -1,0 +1,173 @@
+
+.nav{
+    padding-top: -20px;
+    padding-bottom: 20px;
+    background-color: #A65D03;
+}
+#navbarDropdown{
+    margin-top: 8px;
+}
+#nome{
+    font-family: 'Cookie-Regular';
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 1px;
+    color: white;
+    font-size: 40px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.form-control{
+    margin-top: 12px;
+    margin-left: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn{
+    margin-top: 12px;
+    color: white;
+    border-color: white;
+}
+#btn:hover{
+    background-color: #A65D03;
+    color: #F0BC5E;
+    border-color: #F0BC5E;
+}
+.form-control:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn:focus,select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#acessorio{
+    margin-left: 400px;
+    margin-top: 8px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.item{
+    margin-top: 8px;
+}
+.p{
+    position: absolute;
+    font-family: 'Cookie-Regular';
+    font-size: 40px;
+    margin-left: 360px;
+    color: black;
+}
+/* Menu*/
+h2{
+    font-family: 'Cookie-Regular';
+    font-size: 50px;
+    margin-left: 100px;
+    color: #A65D03;
+    margin-top: 15px;
+}
+.menuL{
+    font-size: 20px;
+    margin-left: 130px;
+}
+.edicao{
+   color: #A65D03; 
+   font-size: 20px;
+}
+.edicao:hover{
+    color: #F0BC5E;
+    text-decoration: none;
+}
+#ap{
+    margin-left: 130px;
+}
+#ep{
+    margin-left: 140px;
+}
+#ip{
+    margin-left: 145px;
+}
+#op{
+    margin-left: 135px;
+}
+
+/*Títulos*/
+.p{
+    position: absolute;
+    font-family: 'Cookie-Regular';
+    font-size: 40px;
+    margin-left: 364px;
+    margin-bottom: 30px;
+    color: #A65D03;
+}
+#a{
+    margin-top: -200px;
+}
+#b{
+    margin-top: 70px;
+}
+#c{
+    margin-top: 140px;
+}
+#d{
+    margin-top: 70px;
+}
+
+.card-deck{
+    height: 370px;
+    width: 900px;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: 90px;
+    margin-bottom: -55px;
+}
+#comprar{
+    color: #A65D03;
+    border-color: #A65D03;
+    margin-left: 140px;
+}
+#comprar:hover{
+    color: white;
+    background-color: #A65D03;
+}
+#primeiro{
+    margin-top: -125px;
+}
+#segundo{
+    margin-top: 145px;
+    
+}
+#terceiro{
+    margin-top: 220px;
+    margin-bottom: 20px;
+}
+#quarto{
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+/*Footer*/
+.page-footer{
+    padding-top: -20px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    background-color: #A65D03;
+}
+#copyright{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 555px;  
+    color: white;
+}
+#linkSite{
+    color: #F0BC5E;
+}
