@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Cookie|Spartan&display=swap');
+@font-face {
+    src: url(Cookie-Regular.ttf);
+    font-family: 'Cookie-Regular';    
+    font-weight: normal;
+}
+@font-face {
+    src: url(Spartan-Regular.ttf);
+    font-family: 'Spartan-Regular';    
+    font-weight: normal;
+}
 .nav{
     padding-top: -20px;
     padding-bottom: 20px;
