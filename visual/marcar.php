@@ -1,6 +1,4 @@
 <?php 
-  require_once("mvc/controle/Conexao.php");
-  require_once("mvc/modelo/agendaModelo.php");
   echo "
   <html lang='pt-br'>
   <head>
@@ -63,39 +61,7 @@
                         <div class='form-group'>
                             <select class='form-control mr-sm-2' id='idServico' name='idServico'>
                               <option>Selecione o Serviço</option>
-                              <option>
-                              ";
-
-                                $conexao = new Conexao();
-                                $cmd = $conexao->getConexao()->prepare("SELECT nome FROM servicos Where id=1;");
-                                $cmd->execute();
-                                while($resultado = $cmd->fetch(PDO::FETCH_ASSOC)){
-                                    echo $resultado["nome"];
-                                }
-                              echo "
-                              </option>
-                              <option>
-                            ";
-
-                                $conexao = new Conexao();
-                                $cmd = $conexao->getConexao()->prepare("SELECT nome FROM servicos Where id=2;");
-                                $cmd->execute();
-                                while($resultado = $cmd->fetch(PDO::FETCH_ASSOC)){
-                                    echo $resultado["nome"];
-                                }
-                            echo "
-                              </option>
-                              <option>
-                              ";
-
-                                $conexao = new Conexao();
-                                $cmd = $conexao->getConexao()->prepare("SELECT nome FROM servicos Where id=3;");
-                                $cmd->execute();
-                                while($resultado = $cmd->fetch(PDO::FETCH_ASSOC)){
-                                    echo $resultado["nome"];
-                                }
-                            echo "
-                              </option>
+                              <optio></option>
                             </select>
                         </div>
                         
