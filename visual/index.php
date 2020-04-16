@@ -83,20 +83,20 @@
             <p id='adocao'>Compre hoje seu pet!</p>
             
             <div id='card1' class='card'>
-              <a href='filhote.php#a'><img class='animal' src='icon/cachorro.png'><a>
+              <a href='filhote.php'><img class='animal' src='icon/cachorro.png'><a>
               
             </div>
               
             <div id='card2' class='card'>
-              <a href='filhote.php#b'><img class='animal' src='icon/coelho.png'></a>
+              <a href='filhote.php'><img class='animal' src='icon/coelho.png'></a>
             </div>
             
             <div id='card3' class='card'>
-              <a href='filhote.php#c'><img class='animal' src='icon/gato.png'></a>
+              <a href='filhote.php'><img class='animal' src='icon/gato.png'></a>
             </div>
             
             <div id='card4' class='card'>
-              <a href='filhote.php#d'><img id='passaro' class='animal' src='icon/passaro.jpg'></a>
+              <a href='filhote.php'><img id='passaro' class='animal' src='icon/passaro.jpg'></a>
             </div>
          </div>
          
