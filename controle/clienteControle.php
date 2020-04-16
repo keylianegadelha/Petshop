@@ -1,6 +1,6 @@
 <?php
 require_once("conexao.php");
-require_once("C:/xampp/htdocs/Bootstrap/Trabalho LW/mvc/modelo/clienteModelo.php");
+require_once("../modelo/clienteModelo.php");
 class ClienteControle{
 	function login($cliente){
 		try{
